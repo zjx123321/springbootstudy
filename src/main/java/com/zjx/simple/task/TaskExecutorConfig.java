@@ -13,8 +13,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 /**
  * Created by dell on 2017/7/14.
  */
-@Configuration
-@ComponentScan("com.zjx.simple.task")
+@WiselyConfiguration("com.zjx.simple.task")
 @EnableAsync //开启异步任务的支持
 public class TaskExecutorConfig implements AsyncConfigurer{
 
